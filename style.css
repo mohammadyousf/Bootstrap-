@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 50%;
+    height: 400px;
+
+
+
+}
+
+.card>img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+
+}
+
+.card {
+
+    border: 5px solid rgb(165, 120, 120);
+    text-align: center;
+
+}
+
+.container-fluid {
+    background-color: black;
+    color: white;
+
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.perintcared {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.contactus {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    background-color: gray;
+    color: white;
+    height: 450px;
+    text-align: center;
+
+}
+
+.contactus p {
+
+    margin-top: 150px;
+}
+
+
+iframe {
+    float: right;
+}
+
+.aboutus {
+
+    background-color: beige;
+    /* color: white; */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
